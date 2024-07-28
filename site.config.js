@@ -1,33 +1,36 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    name: "soonsoonyy",
+    image: "https://notion-avatar.vercel.app/api/svg/eyJmYWNlIjo1LCJub3NlIjo2LCJtb3V0aCI6MiwiZXllcyI6NCwiZXllYnJvd3MiOjgsImdsYXNzZXMiOjAsImhhaXIiOjE4LCJhY2Nlc3NvcmllcyI6MCwiZGV0YWlscyI6MywiYmVhcmQiOjAsImZsaXAiOjAsImNvbG9yIjoicmdiYSgyNTUsIDAsIDAsIDApIiwic2hhcGUiOiJub25lIn0=", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "backend developer, 백엔드 개발자",
+    bio: "A developer who spills the beans through code, no secrets here!",
+    email: "soonsoonyy.dev@gmail.com",
+    linkedin: "soonsoonyy",
+    github: "soonsoonyy",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `스프링 코어 분석하기`,
+      href: "https://github.com/GGOGGOMU/spring-core/tree/eunbi",
+    },
+    {
+      name: `Geek의 Knitting Story`,
+      href: "https://github.com/soonSoonyy/geeknitter",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "soonsoonyy-blog",
+    description: "🤖",
+    scheme: "system", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  link: "https://soonsoonyy.com",
+  since: 2024, // If leave this empty, current year will be used.
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  ogImageGenerateURL: "https://soonsoonyy.com", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
